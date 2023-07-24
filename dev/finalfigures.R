@@ -248,7 +248,7 @@ pheatmap(-log(1+mergeReps[2:15,1:17])+log(1+mergeReps[16:29,1:17]), cluster_rows
 # Step 6: Analysis of light sensitivity of each cell type
 
 lightGeneList=read.table("data/otherData/lightInductionGeneList.txt", header=T, row.names=1, stringsAsFactors = T)
-
+###Downloadable from: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE184511
 a=readRDS("data/scRNAseq/GSM5591756_Seurat_dedoublet")
 ###use cluster designations from paper
 asub=a 
