@@ -1,0 +1,29 @@
+>Running CIBERSORTx GEP imputation (representative profiles only)...
+>[Options] mixture: files/daphne.ezer@york.ac.uk/notbolting.txt
+>[Options] sigmatrix: files/daphne.ezer@york.ac.uk/CIBERSORTx_singleCellEckerChory_train_moreGenes_inferred_phenoclasses-CIBERSORTx_singleCellEckerChory_train_moreGenes_inferred_refsample-bm-K999.txt
+>[Options] classes: files/daphne.ezer@york.ac.uk/eckerchory_boltingtissues.txt
+>[Options] threads: 7
+>[Options] nsampling: 30
+>[Options] redo: TRUE [to rerun CIBERSORT, set 'redocibersort' to TRUE]
+>[Options] QN: FALSE
+>[Options] outdir: files/daphne.ezer@york.ac.uk/results/
+>[Options] label: Job113
+>Estimating cell proportions...
+done.
+>Loaded 45 mixture samples, 32753 genes, and 10 cell subsets...
+>Imputing representative cell type GEPs...done.
+>Writing output to disk...done.
+>Running time (sec): 1137
+  adding: CIBERSORTxGEP_Job113_Fractions.txt (deflated 53%)
+  adding: CIBERSORTxGEP_Job113_GEPs.txt (deflated 58%)
+  adding: CIBERSORTxGEP_Job113_GEPs_CVs.txt (deflated 57%)
+  adding: CIBERSORTxGEP_Job113_GEPs_Filtered.txt (deflated 71%)
+  adding: CIBERSORTxGEP_Job113_GEPs_Pvals.txt (deflated 62%)
+  adding: CIBERSORTxGEP_Job113_GEPs_Qvals.txt (deflated 83%)
+  adding: CIBERSORTxGEP_Job113_GEPs_StdErrs.txt (deflated 56%)
+  adding: CIBERSORTxGEP_Job113_GEPs_ThresholdPlots.jpg (deflated 2%)
+  adding: CIBERSORTxGEP_Job113_GEPs_ThresholdPlots.pdf (deflated 39%)
+  adding: CIBERSORTxGEP_Job113_SM_GEPs_Filtered.txt (deflated 71%)
+  adding: CIBERSORTxGEP_Job113_Weights.txt (deflated 56%)
+  adding: CIBERSORTx_Job113_error_log.txt (deflated 54%)
+  adding: CIBERSORTx_Job113_runtime_log.txt

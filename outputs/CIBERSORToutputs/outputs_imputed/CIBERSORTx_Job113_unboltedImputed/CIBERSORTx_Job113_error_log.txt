@@ -1,0 +1,5 @@
+Warning messages:
+1: In read.table(classes, sep = "\t") :
+  incomplete final line found by readTableHeader on 'files/daphne.ezer@york.ac.uk/eckerchory_boltingtissues.txt'
+2: In read.table(classes, sep = "\t") :
+  incomplete final line found by readTableHeader on 'files/daphne.ezer@york.ac.uk/eckerchory_boltingtissues.txt'

@@ -1,0 +1,51 @@
+>Running CIBERSORTx high-resolution GEP imputation...
+>[Options] mixture: files/daphne.ezer@york.ac.uk/allbolt.txt
+>[Options] sigmatrix: files/daphne.ezer@york.ac.uk/CIBERSORTx_singleCellEckerChory_train_moreGenes_inferred_phenoclasses-CIBERSORTx_singleCellEckerChory_train_moreGenes_inferred_refsample-bm-K999.txt
+>[Options] classes: files/daphne.ezer@york.ac.uk/eckerchory_boltingtissues.txt
+>[Options] subsetgenes: files/daphne.ezer@york.ac.uk/genesDiffDown.txt
+>[Options] cluster: TRUE
+>[Options] threads: 3
+>[Options] variableonly: FALSE
+>[Options] QN: FALSE
+>[Options] outdir: files/daphne.ezer@york.ac.uk/results/
+>[Options] label: Job117
+>Estimating cell proportions...
+done.
+>Loaded 69 mixture samples, 32753 genes, and 10 cell subsets...
+>Imputing representative cell type GEPs...done.
+>Writing output to disk...done.
+>Running time (sec): 1406
+>Loaded 69 mixture samples, 1000 genes, and 10 cell subsets...
+>Window size adaptively set to 35
+>Imputing high-resolution cell type GEPs...done.
+>Writing output to disk ...done.
+>Running time (sec): 1956
+  adding: CIBERSORTxGEP_Job117_Fractions.txt (deflated 53%)
+  adding: CIBERSORTxGEP_Job117_GEPs.txt (deflated 58%)
+  adding: CIBERSORTxGEP_Job117_GEPs_CVs.txt (deflated 57%)
+  adding: CIBERSORTxGEP_Job117_GEPs_Filtered.txt (deflated 67%)
+  adding: CIBERSORTxGEP_Job117_GEPs_Pvals.txt (deflated 62%)
+  adding: CIBERSORTxGEP_Job117_GEPs_Qvals.txt (deflated 73%)
+  adding: CIBERSORTxGEP_Job117_GEPs_StdErrs.txt (deflated 56%)
+  adding: CIBERSORTxGEP_Job117_GEPs_ThresholdPlots.jpg (deflated 2%)
+  adding: CIBERSORTxGEP_Job117_GEPs_ThresholdPlots.pdf (deflated 40%)
+  adding: CIBERSORTxGEP_Job117_SM_GEPs_Filtered.txt (deflated 67%)
+  adding: CIBERSORTxGEP_Job117_Weights.txt (deflated 57%)
+  adding: CIBERSORTxHiRes_Job117_Heatmap_cl0_Window35.png (deflated 13%)
+  adding: CIBERSORTxHiRes_Job117_Heatmap_cl13_Window35.png (deflated 33%)
+  adding: CIBERSORTxHiRes_Job117_Heatmap_cl1_Window35.png (deflated 40%)
+  adding: CIBERSORTxHiRes_Job117_Heatmap_cl3_Window35.png (deflated 22%)
+  adding: CIBERSORTxHiRes_Job117_Heatmap_cl4_Window35.png (deflated 6%)
+  adding: CIBERSORTxHiRes_Job117_Heatmap_cl_Window35.png (deflated 39%)
+  adding: CIBERSORTxHiRes_Job117_cl0_Window35.txt (deflated 72%)
+  adding: CIBERSORTxHiRes_Job117_cl13_Window35.txt (deflated 85%)
+  adding: CIBERSORTxHiRes_Job117_cl15_Window35.txt (deflated 98%)
+  adding: CIBERSORTxHiRes_Job117_cl1_Window35.txt (deflated 89%)
+  adding: CIBERSORTxHiRes_Job117_cl3_Window35.txt (deflated 80%)
+  adding: CIBERSORTxHiRes_Job117_cl4_Window35.txt (deflated 55%)
+  adding: CIBERSORTxHiRes_Job117_cl5_Window35.txt (deflated 97%)
+  adding: CIBERSORTxHiRes_Job117_cl7_Window35.txt (deflated 98%)
+  adding: CIBERSORTxHiRes_Job117_cl9_Window35.txt (deflated 98%)
+  adding: CIBERSORTxHiRes_Job117_cl_Window35.txt (deflated 88%)
+  adding: CIBERSORTx_Job117_error_log.txt (deflated 54%)
+  adding: CIBERSORTx_Job117_runtime_log.txt
