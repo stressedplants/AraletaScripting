@@ -4,6 +4,11 @@ library(pheatmap)
 library(Seurat)
 library(RColorBrewer)
 
+##############Note:
+#Please download GSM5591756_Seurat_dedoublet
+# from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE184511
+# and place in data/scRNAseq/
+
 ###############Universal variables and helper functions##############
 #Note that the time points are really wacky, if you look at data table S1 in Hickman et al., 2017
 ZTs=c("00:30",
